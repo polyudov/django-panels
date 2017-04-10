@@ -1,0 +1,14 @@
+{% for p in panels %}
+    <div class="panel panel-{{ p.get_context_display }}">
+        {% if p.title %}
+            <div class="panel-heading">
+                <span class="panel-title"><small>{{ p.title }}</small></span>
+            </div>
+        {% endif %}
+        <div class="panel-body">
+            <small>
+                {{ p.text|safe }}
+            </small>
+        </div>
+    </div>
+{% endfor %}
