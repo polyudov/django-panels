@@ -37,4 +37,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 Include this in your templates (eg, `base.html`):
 
-{% include "panels/panels.html" %}
+```python
+    {% include "panels/panels.html" %}
+```
