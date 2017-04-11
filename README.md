@@ -1,4 +1,4 @@
-django-tooltips
+django-panels
 ====================
 
 Manageable bootstrap panels
