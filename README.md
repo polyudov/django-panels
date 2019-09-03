@@ -1,17 +1,14 @@
-django-panels
-====================
+# Django Panels
 
-Manageable bootstrap panels
+Manageable bootstrap panels.
 
 
-Requirements
-============
+## Requirements
 
-- Django
-- Bootstrap
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
-Installation
-============
+## Installation
 
 Install:
 
